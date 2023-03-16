@@ -2,4 +2,4 @@
 
 This Repository Holds SQL I Have Written. 
 Look Around And Reach Out If You Have Any Questions. 
-quinterojoxge@gmail.com
+Quinterojoxge@gmail.com
