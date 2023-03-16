@@ -1,4 +1,4 @@
-# JORGE QUINTERO'S SQL PORTFOLIO 
+# Jorge Quintero - SQL Portfolio 
 
-THIS REPOSITORY CONTAINS SQL THAT I HAVE WRITTEN. 
-LOOK AROUND AND REACH OUT VIA EMAIL IF YOU HAVE ANY QUESTIONS. 
+This Repository Holds SQL I Have Written. 
+Look Around And Reach Out If You Have Any Questions.
