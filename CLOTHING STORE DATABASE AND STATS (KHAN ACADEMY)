@@ -1,0 +1,41 @@
+ -- CREATE A COLTHING STORE DATABASE - 
+ 
+CREATE TABLE clothing (Item_Number INTEGER, gender TEXT, size TEXT, color TEXT, price INTEGER, sell_date TEXT); 
+
+INSERT INTO clothing VALUES (1, "M", "S", "Blue", 10, "march"); 
+
+INSERT INTO clothing VALUES (2, "F", "M", "RED", 15, "MARCH"); 
+
+INSERT INTO clothing VALUES (3, "F", "L", "BLACK",20, "APRIL"); 
+
+INSERT INTO clothing VALUES (4, "F", "L", "BLACK",20, "APRIL"); 
+
+INSERT INTO clothing VALUES (5, "M", "XXL", "GREEN", 9, "APRIL"); 
+
+INSERT INTO clothing VALUES (6, "M", "XL", "ORANGE", 10, "APRIL"); 
+
+INSERT INTO clothing VALUES (7, "M", "L", "RED", 12, "APRIL");
+
+INSERT INTO clothing VALUES (8, "F" , "XL", "BLACK", 15, "MARCH");
+
+INSERT INTO clothing VALUES (9, "F", "S", "GREEN", 17, "APRIL");
+
+INSERT INTO clothing VALUES (10, "M", "L", "MULTI", 100, "MARCH"); 
+
+INSERT INTO clothing VALUES (11, "F", "X-small", "Pink", 100, "June"); 
+
+insert into clothing values (12, "F", "L", "Green", 10, "March"); 
+insert into clothing values (13, "M", "XL", "Black", 20, "march"); 
+insert into clothing values (14, "F", "XL", "Black", 15, "march"); 
+Insert into clothing values (15, "M", "M", "Green", 45, "March"); 
+
+
+
+
+-- DISPLAY DATA WITH VALUES -- 
+
+SELECT * FROM CLOTHING;
+
+-- DISPLAY DATA WITH CRITERIA ORDERD BY PRICE -- 
+
+select item_number, size, price From clothing ORDER BY price; 
