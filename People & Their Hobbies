@@ -1,0 +1,30 @@
+/* Created a Table About People And What They Do */ 
+
+CREATE TABLE movie_star (id INTEGER PRIMARY KEY, name TEXT); 
+
+INSERT INTO movie_star VALUES (1, "Viola Davis") ; 
+INSERT INTO movie_star VALUES (2,"David Beckham");
+INSERT INTO movie_star VALUES (3, "Chris Hemsworth"),
+(4, "Paul Walker"),
+(5, "Toretto Kilar"),
+(6, "Misael J"), 
+(7, "Un Corazon"), 
+(8, "Pierce the Vei");
+
+CREATE TABLE hobbies (id INTEGER PRIMARY KEY, Name TEXT); 
+
+INSERT INTO hobbies VALUES (1, "Running"); 
+INSERT INTO hobbies VALUES (2, "Swimming"); 
+INSERT INTO hobbies VALUES (3, "Working Out"),
+(4,"Driving"),
+(5, "Speeding"),
+(6, "singing"),
+(7, "Performing"),
+(8, "Screaming"); 
+
+
+
+/* Running Query That Connects The Person To Their Hobbies*/ 
+
+select movie_star.name, hobbies.name FROM movie_star join hobbies 
+ON movie_star.id=Hobbies.id;
